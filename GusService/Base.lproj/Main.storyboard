@@ -24,32 +24,6 @@
                             <tableView clipsSubviews="YES" alpha="0.69999999999999996" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tMg-c5-fCG">
                                 <rect key="frame" x="40" y="280" width="944" height="1046"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Fjb-J5-dNJ">
-                                        <rect key="frame" x="0.0" y="28" width="944" height="52"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fjb-J5-dNJ" id="4LM-Sl-t9M">
-                                            <rect key="frame" x="0.0" y="0.0" width="944" height="51.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="6x7-jx-3Fr">
-                                        <rect key="frame" x="0.0" y="80" width="944" height="52"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6x7-jx-3Fr" id="mBh-v2-Z6z">
-                                            <rect key="frame" x="0.0" y="0.0" width="944" height="51.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="LxU-m5-lZk">
-                                        <rect key="frame" x="0.0" y="132" width="944" height="52"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LxU-m5-lZk" id="Wg0-DC-GRZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="944" height="51.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                                 <sections/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6o4-Og-z22">
@@ -164,6 +138,7 @@
                     <connections>
                         <outlet property="powButtonOut" destination="gdY-N7-3Rt" id="O0E-QA-7c1"/>
                         <outlet property="searchButtonOut" destination="aQa-Yb-kNH" id="w02-FC-Kke"/>
+                        <outlet property="tableViewOut" destination="tMg-c5-fCG" id="dwH-MO-W6Z"/>
                         <outlet property="textFieldOut" destination="oc9-Pt-RfK" id="dQS-qf-h5k"/>
                         <outlet property="wojButtonOut" destination="aPm-2C-2DL" id="URm-De-dWT"/>
                     </connections>

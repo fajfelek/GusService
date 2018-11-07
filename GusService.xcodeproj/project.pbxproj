@@ -12,8 +12,6 @@
 		147980DD2192452A00953CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147980DB2192452A00953CD2 /* Main.storyboard */; };
 		147980DF2192452B00953CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147980DE2192452B00953CD2 /* Assets.xcassets */; };
 		147980E22192452B00953CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147980E02192452B00953CD2 /* LaunchScreen.storyboard */; };
-		147980EB21925BAF00953CD2 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980E921925BAF00953CD2 /* MyCell.swift */; };
-		147980EC21925BAF00953CD2 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147980EA21925BAF00953CD2 /* MyCell.xib */; };
 		147980F72192FFCA00953CD2 /* TERCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980ED2192FFC600953CD2 /* TERCHandler.swift */; };
 		147980F82192FFCA00953CD2 /* TERC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147980EE2192FFC700953CD2 /* TERC.xml */; };
 		147980F92192FFCA00953CD2 /* ULIC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147980EF2192FFC800953CD2 /* ULIC.xml */; };
@@ -24,6 +22,8 @@
 		147980FE2192FFCA00953CD2 /* ULICHandler3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980F42192FFC900953CD2 /* ULICHandler3.swift */; };
 		147980FF2192FFCA00953CD2 /* SIMCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980F52192FFC900953CD2 /* SIMCHandler.swift */; };
 		147981002192FFCA00953CD2 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980F62192FFC900953CD2 /* Description.swift */; };
+		1479810521934CA000953CD2 /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479810321934CA000953CD2 /* CustomMessageCell.swift */; };
+		1479810621934CA000953CD2 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1479810421934CA000953CD2 /* MessageCell.xib */; };
 		42B9EB9292A8879F2237C35B /* Pods_GusService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088BF1A83C76ABB93EAD0068 /* Pods_GusService.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +36,6 @@
 		147980DE2192452B00953CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147980E12192452B00953CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		147980E32192452B00953CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		147980E921925BAF00953CD2 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
-		147980EA21925BAF00953CD2 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 		147980ED2192FFC600953CD2 /* TERCHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TERCHandler.swift; sourceTree = "<group>"; };
 		147980EE2192FFC700953CD2 /* TERC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TERC.xml; sourceTree = "<group>"; };
 		147980EF2192FFC800953CD2 /* ULIC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ULIC.xml; sourceTree = "<group>"; };
@@ -48,6 +46,8 @@
 		147980F42192FFC900953CD2 /* ULICHandler3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ULICHandler3.swift; sourceTree = "<group>"; };
 		147980F52192FFC900953CD2 /* SIMCHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIMCHandler.swift; sourceTree = "<group>"; };
 		147980F62192FFC900953CD2 /* Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		1479810321934CA000953CD2 /* CustomMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
+		1479810421934CA000953CD2 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		61EB1A3045ACEB6D608FC56C /* Pods-GusService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GusService.release.xcconfig"; path = "Pods/Target Support Files/Pods-GusService/Pods-GusService.release.xcconfig"; sourceTree = "<group>"; };
 		94BCAA0C7FDAB058CAB5FEA3 /* Pods-GusService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GusService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GusService/Pods-GusService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,11 +85,10 @@
 		147980D62192452A00953CD2 /* GusService */ = {
 			isa = PBXGroup;
 			children = (
+				1479810721934CAA00953CD2 /* CustomMessage */,
 				147980D72192452A00953CD2 /* AppDelegate.swift */,
 				147980D92192452A00953CD2 /* ViewController.swift */,
 				147980DB2192452A00953CD2 /* Main.storyboard */,
-				147980E921925BAF00953CD2 /* MyCell.swift */,
-				147980EA21925BAF00953CD2 /* MyCell.xib */,
 				147980DE2192452B00953CD2 /* Assets.xcassets */,
 				147980E02192452B00953CD2 /* LaunchScreen.storyboard */,
 				147980E32192452B00953CD2 /* Info.plist */,
@@ -105,6 +104,15 @@
 				147980F42192FFC900953CD2 /* ULICHandler3.swift */,
 			);
 			path = GusService;
+			sourceTree = "<group>";
+		};
+		1479810721934CAA00953CD2 /* CustomMessage */ = {
+			isa = PBXGroup;
+			children = (
+				1479810321934CA000953CD2 /* CustomMessageCell.swift */,
+				1479810421934CA000953CD2 /* MessageCell.xib */,
+			);
+			path = CustomMessage;
 			sourceTree = "<group>";
 		};
 		51D352AFB42EBA4E56FB687F /* Pods */ = {
@@ -185,11 +193,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				147980E22192452B00953CD2 /* LaunchScreen.storyboard in Resources */,
-				147980EC21925BAF00953CD2 /* MyCell.xib in Resources */,
 				147980F82192FFCA00953CD2 /* TERC.xml in Resources */,
 				147980DF2192452B00953CD2 /* Assets.xcassets in Resources */,
 				147980F92192FFCA00953CD2 /* ULIC.xml in Resources */,
 				147980FD2192FFCA00953CD2 /* SIMC.xml in Resources */,
+				1479810621934CA000953CD2 /* MessageCell.xib in Resources */,
 				147980DD2192452A00953CD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +264,7 @@
 				147980FA2192FFCA00953CD2 /* HandlerChooser.swift in Sources */,
 				147980FE2192FFCA00953CD2 /* ULICHandler3.swift in Sources */,
 				147980FF2192FFCA00953CD2 /* SIMCHandler.swift in Sources */,
-				147980EB21925BAF00953CD2 /* MyCell.swift in Sources */,
+				1479810521934CA000953CD2 /* CustomMessageCell.swift in Sources */,
 				147980DA2192452A00953CD2 /* ViewController.swift in Sources */,
 				147980FC2192FFCA00953CD2 /* ULICHandler2.swift in Sources */,
 				147980D82192452A00953CD2 /* AppDelegate.swift in Sources */,
