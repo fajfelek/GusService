@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var wojButtonOut: UIButton!
     @IBOutlet weak var powButtonOut: UIButton!
     @IBOutlet weak var searchButtonOut: UIButton!
+    @IBOutlet weak var textFieldOut: UITextField!
     
     var wojewDict = [String : String]()
     var outerPowiatMapDict = [String : [String : String]]()
@@ -48,6 +49,13 @@ class ViewController: UIViewController {
         powDropDown.show()
     }
     @IBAction func searchButtonPressed(_ sender: Any) {
+        var ulica = textFieldOut.text
+        var woj = wojButtonOut.title(for: .normal)
+        var pow = powButtonOut.title(for: .normal)
+        
+        print(ulica!)
+        print(woj!)
+        print(pow!)
     }
     
     func setupDropDowns() {
@@ -67,34 +75,39 @@ class ViewController: UIViewController {
         wojDropDown.selectionAction = { [weak self] (index, item) in
             self?.wojButtonOut.setTitle(item, for: .normal)
             self?.setupPowDropDown()
+            self?.powButtonOut.setTitle("Powiat", for: .normal)
         }
     }
+    
+    
     
     func setupPowDropDown() {
         powDropDown.anchorView = powButtonOut
         powDropDown.bottomOffset = CGPoint(x: 0, y: powButtonOut.bounds.height)
         if let text : String = wojButtonOut.title(for: .normal) {
+            powDropDown.dataSource.removeAll(keepingCapacity: false)
             if text == "Wszystkie" {
+                powButtonOut.setTitle("Powiat", for: .normal)
                 powButtonOut.isEnabled = false
             } else {
                 powButtonOut.isEnabled = true
             }
-            print(text.uppercased())
-            for (woj, key) in wojewDict {
-                print("WOJ: \(woj) - KEY: \(key)")
+            if let wojChoosen = wojewDict[text.uppercased()] {
+                if let innerPowiatDict = outerPowiatMapDict[wojChoosen]{
+                    for (_,name) in innerPowiatDict {
+                        if name != "" {
+                            powDropDown.dataSource.append(name)
+                        }
+                    }
+                }
             }
-           let wojChoosen = wojewDict[text.uppercased()]
-            print(wojChoosen)
-//            if let zmienna = outerPowiatMapDict[wojChoosen!]{
-//                print(zmienna)
-//            }
         }
         
-        powDropDown.dataSource = [
-            "Auto",
-            "Rower",
-            "Rolki"
-        ]
+//        powDropDown.dataSource = [
+//            "Auto",
+//            "Rower",
+//            "Rolki"
+//        ]
         
         powDropDown.selectionAction = { [weak self] (index, item) in
             self?.powButtonOut.setTitle(item, for: .normal)

@@ -164,6 +164,7 @@
                     <connections>
                         <outlet property="powButtonOut" destination="gdY-N7-3Rt" id="O0E-QA-7c1"/>
                         <outlet property="searchButtonOut" destination="aQa-Yb-kNH" id="w02-FC-Kke"/>
+                        <outlet property="textFieldOut" destination="oc9-Pt-RfK" id="dQS-qf-h5k"/>
                         <outlet property="wojButtonOut" destination="aPm-2C-2DL" id="URm-De-dWT"/>
                     </connections>
                 </viewController>
