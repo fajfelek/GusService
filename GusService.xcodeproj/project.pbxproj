@@ -12,9 +12,23 @@
 		147980DD2192452A00953CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147980DB2192452A00953CD2 /* Main.storyboard */; };
 		147980DF2192452B00953CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147980DE2192452B00953CD2 /* Assets.xcassets */; };
 		147980E22192452B00953CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147980E02192452B00953CD2 /* LaunchScreen.storyboard */; };
+		147980EB21925BAF00953CD2 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980E921925BAF00953CD2 /* MyCell.swift */; };
+		147980EC21925BAF00953CD2 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147980EA21925BAF00953CD2 /* MyCell.xib */; };
+		147980F72192FFCA00953CD2 /* TERCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980ED2192FFC600953CD2 /* TERCHandler.swift */; };
+		147980F82192FFCA00953CD2 /* TERC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147980EE2192FFC700953CD2 /* TERC.xml */; };
+		147980F92192FFCA00953CD2 /* ULIC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147980EF2192FFC800953CD2 /* ULIC.xml */; };
+		147980FA2192FFCA00953CD2 /* HandlerChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980F02192FFC800953CD2 /* HandlerChooser.swift */; };
+		147980FB2192FFCA00953CD2 /* ULICHandler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980F12192FFC800953CD2 /* ULICHandler1.swift */; };
+		147980FC2192FFCA00953CD2 /* ULICHandler2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980F22192FFC800953CD2 /* ULICHandler2.swift */; };
+		147980FD2192FFCA00953CD2 /* SIMC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147980F32192FFC900953CD2 /* SIMC.xml */; };
+		147980FE2192FFCA00953CD2 /* ULICHandler3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980F42192FFC900953CD2 /* ULICHandler3.swift */; };
+		147980FF2192FFCA00953CD2 /* SIMCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980F52192FFC900953CD2 /* SIMCHandler.swift */; };
+		147981002192FFCA00953CD2 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147980F62192FFC900953CD2 /* Description.swift */; };
+		42B9EB9292A8879F2237C35B /* Pods_GusService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088BF1A83C76ABB93EAD0068 /* Pods_GusService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		088BF1A83C76ABB93EAD0068 /* Pods_GusService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GusService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		147980D42192452A00953CD2 /* GusService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GusService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147980D72192452A00953CD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		147980D92192452A00953CD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,20 @@
 		147980DE2192452B00953CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147980E12192452B00953CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		147980E32192452B00953CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147980E921925BAF00953CD2 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		147980EA21925BAF00953CD2 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		147980ED2192FFC600953CD2 /* TERCHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TERCHandler.swift; sourceTree = "<group>"; };
+		147980EE2192FFC700953CD2 /* TERC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TERC.xml; sourceTree = "<group>"; };
+		147980EF2192FFC800953CD2 /* ULIC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ULIC.xml; sourceTree = "<group>"; };
+		147980F02192FFC800953CD2 /* HandlerChooser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandlerChooser.swift; sourceTree = "<group>"; };
+		147980F12192FFC800953CD2 /* ULICHandler1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ULICHandler1.swift; sourceTree = "<group>"; };
+		147980F22192FFC800953CD2 /* ULICHandler2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ULICHandler2.swift; sourceTree = "<group>"; };
+		147980F32192FFC900953CD2 /* SIMC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SIMC.xml; sourceTree = "<group>"; };
+		147980F42192FFC900953CD2 /* ULICHandler3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ULICHandler3.swift; sourceTree = "<group>"; };
+		147980F52192FFC900953CD2 /* SIMCHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIMCHandler.swift; sourceTree = "<group>"; };
+		147980F62192FFC900953CD2 /* Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		61EB1A3045ACEB6D608FC56C /* Pods-GusService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GusService.release.xcconfig"; path = "Pods/Target Support Files/Pods-GusService/Pods-GusService.release.xcconfig"; sourceTree = "<group>"; };
+		94BCAA0C7FDAB058CAB5FEA3 /* Pods-GusService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GusService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GusService/Pods-GusService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B9EB9292A8879F2237C35B /* Pods_GusService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +69,8 @@
 			children = (
 				147980D62192452A00953CD2 /* GusService */,
 				147980D52192452A00953CD2 /* Products */,
+				51D352AFB42EBA4E56FB687F /* Pods */,
+				6F0ACAF3B26B3B158C31EC32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +88,40 @@
 				147980D72192452A00953CD2 /* AppDelegate.swift */,
 				147980D92192452A00953CD2 /* ViewController.swift */,
 				147980DB2192452A00953CD2 /* Main.storyboard */,
+				147980E921925BAF00953CD2 /* MyCell.swift */,
+				147980EA21925BAF00953CD2 /* MyCell.xib */,
 				147980DE2192452B00953CD2 /* Assets.xcassets */,
 				147980E02192452B00953CD2 /* LaunchScreen.storyboard */,
 				147980E32192452B00953CD2 /* Info.plist */,
+				147980F62192FFC900953CD2 /* Description.swift */,
+				147980F02192FFC800953CD2 /* HandlerChooser.swift */,
+				147980F32192FFC900953CD2 /* SIMC.xml */,
+				147980F52192FFC900953CD2 /* SIMCHandler.swift */,
+				147980EE2192FFC700953CD2 /* TERC.xml */,
+				147980ED2192FFC600953CD2 /* TERCHandler.swift */,
+				147980EF2192FFC800953CD2 /* ULIC.xml */,
+				147980F12192FFC800953CD2 /* ULICHandler1.swift */,
+				147980F22192FFC800953CD2 /* ULICHandler2.swift */,
+				147980F42192FFC900953CD2 /* ULICHandler3.swift */,
 			);
 			path = GusService;
+			sourceTree = "<group>";
+		};
+		51D352AFB42EBA4E56FB687F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94BCAA0C7FDAB058CAB5FEA3 /* Pods-GusService.debug.xcconfig */,
+				61EB1A3045ACEB6D608FC56C /* Pods-GusService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F0ACAF3B26B3B158C31EC32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				088BF1A83C76ABB93EAD0068 /* Pods_GusService.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 147980E62192452B00953CD2 /* Build configuration list for PBXNativeTarget "GusService" */;
 			buildPhases = (
+				CDED959709EEE26BB3B71D16 /* [CP] Check Pods Manifest.lock */,
 				147980D02192452A00953CD2 /* Sources */,
 				147980D12192452A00953CD2 /* Frameworks */,
 				147980D22192452A00953CD2 /* Resources */,
+				67A0378131B692127E141379 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,19 +185,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				147980E22192452B00953CD2 /* LaunchScreen.storyboard in Resources */,
+				147980EC21925BAF00953CD2 /* MyCell.xib in Resources */,
+				147980F82192FFCA00953CD2 /* TERC.xml in Resources */,
 				147980DF2192452B00953CD2 /* Assets.xcassets in Resources */,
+				147980F92192FFCA00953CD2 /* ULIC.xml in Resources */,
+				147980FD2192FFCA00953CD2 /* SIMC.xml in Resources */,
 				147980DD2192452A00953CD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67A0378131B692127E141379 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GusService/Pods-GusService-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GusService/Pods-GusService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDED959709EEE26BB3B71D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GusService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		147980D02192452A00953CD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147980F72192FFCA00953CD2 /* TERCHandler.swift in Sources */,
+				147980FB2192FFCA00953CD2 /* ULICHandler1.swift in Sources */,
+				147981002192FFCA00953CD2 /* Description.swift in Sources */,
+				147980FA2192FFCA00953CD2 /* HandlerChooser.swift in Sources */,
+				147980FE2192FFCA00953CD2 /* ULICHandler3.swift in Sources */,
+				147980FF2192FFCA00953CD2 /* SIMCHandler.swift in Sources */,
+				147980EB21925BAF00953CD2 /* MyCell.swift in Sources */,
 				147980DA2192452A00953CD2 /* ViewController.swift in Sources */,
+				147980FC2192FFCA00953CD2 /* ULICHandler2.swift in Sources */,
 				147980D82192452A00953CD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,10 +403,12 @@
 		};
 		147980E72192452B00953CD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94BCAA0C7FDAB058CAB5FEA3 /* Pods-GusService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GusService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,16 +416,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fstajniak.GusService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		147980E82192452B00953CD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EB1A3045ACEB6D608FC56C /* Pods-GusService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GusService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +435,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fstajniak.GusService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
