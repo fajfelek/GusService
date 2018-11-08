@@ -11,6 +11,18 @@ import DropDown
 import SVProgressHUD
 import ChameleonFramework
 
+extension UIViewController {
+    func hideKeyboard() {
+        let tap : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}
+
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
 
     @IBOutlet weak var wojButtonOut: UIButton!
@@ -49,6 +61,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableViewOut.dataSource = self
         tableViewOut.register(UINib(nibName: "MessageCell", bundle: nil), forCellReuseIdentifier: "customMessageCell")
         configureTableView()
+        self.hideKeyboard()
     }
     
     @IBAction func wojButtonPressed(_ sender: Any) {
