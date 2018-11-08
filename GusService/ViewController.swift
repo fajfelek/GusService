@@ -9,6 +9,7 @@
 import UIKit
 import DropDown
 import SVProgressHUD
+import ChameleonFramework
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
 
@@ -23,6 +24,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var outerPowiatMapDict = [String : [String : String]]()
     
     let handlerChooser = HandlerChooser()
+    var results = [Description]()
     
     let wojDropDown = DropDown()
     let powDropDown = DropDown()
@@ -56,13 +58,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         powDropDown.show()
     }
     @IBAction func searchButtonPressed(_ sender: Any) {
+        SVProgressHUD.show()
         let ulica = textFieldOut.text
         var woj = wojButtonOut.title(for: .normal)
         var pow = powButtonOut.title(for: .normal)
         
-//        if ulica == "" {
-//            ulica = nil
-//        }
         if woj == "Wszystkie" || woj == "Województwo" {
             woj = nil
         } else {
@@ -78,20 +78,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 }
             }
         }
-//        if ulica == nil && woj == nil && pow == nil {
-//            print("Nie można rozpocząc wyszukiwania")
-//        } else {
-        if ulica != nil || woj != nil || pow != nil {
-            if let result = handlerChooser.XMLChooser(woj: woj, pow: pow, ulica: ulica) {
-                for all in result {
-                    print(all.getAttributes())
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            if ulica != nil || woj != nil || pow != nil {
+                if let result = self.handlerChooser.XMLChooser(woj: woj, pow: pow, ulica: ulica) {
+                    self.results = result
+                    self.configureTableView()
+                    self.tableViewOut.reloadData()
                 }
             }
-        }
-        print(woj)
-        print(pow)
-        print(ulica)
         
+        SVProgressHUD.dismiss()
+        }
     }
     
     func setupDropDowns() {
@@ -130,6 +127,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
             if let wojChoosen = wojewDict[text.uppercased()] {
                 if let innerPowiatDict = outerPowiatMapDict[wojChoosen]{
+                    powDropDown.dataSource.append("Wszystkie")
                     for (_,name) in innerPowiatDict {
                         if name != "" {
                             powDropDown.dataSource.append(name)
@@ -139,30 +137,41 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
         }
         
-//        powDropDown.dataSource = [
-//            "Auto",
-//            "Rower",
-//            "Rolki"
-//        ]
-        
         powDropDown.selectionAction = { [weak self] (index, item) in
             self?.powButtonOut.setTitle(item, for: .normal)
         }
     }
-    var Item1 = ["Item1","Item1","Item1","Item1"]
-    var Item2 = ["Item2","Item2","Item2","Item2"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return results.count + 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "customMessageCell", for: indexPath) as! CustomMessageCell
-        
-        let messageArray = ["First message", "Second message", "Third message"]
-        
-        cell.nazwa.text = messageArray[indexPath.row]
+        if indexPath.row == 0 {
+            cell.messageBackground.backgroundColor = UIColor.flatGray()
+            cell.nazwa.text = "Nazwa"
+            cell.cecha.text = "Cecha"
+            cell.nazwaMsc.text = "Nazwa miejscowości"
+            cell.wojewodztwo.text = "Województwo"
+            cell.powiat.text = "Powiat"
+            cell.identyfikatorMiejscowosci.text = "Identyfikator miejscowości"
+            cell.rodziajGminy.text = "Rodzaj gminy"
+        } else {
+            cell.messageBackground.backgroundColor = UIColor.clear
+            cell.nazwa.text = results[indexPath.row-1].NAME
+            cell.cecha.text = results[indexPath.row-1].CECH
+            cell.nazwaMsc.text = results[indexPath.row-1].CITY_NAME
+            for (name, number) in wojewDict {
+                if results[indexPath.row-1].WOJ == number {
+                    cell.wojewodztwo.text = name.prefix(1).uppercased() + name[1..<name.count].lowercased()
+                }
+            }
+            cell.powiat.text = results[indexPath.row-1].POW
+            cell.identyfikatorMiejscowosci.text = results[indexPath.row-1].ID_CITY
+            cell.rodziajGminy.text = results[indexPath.row-1].RODZ
+        }
         return cell
     }
     

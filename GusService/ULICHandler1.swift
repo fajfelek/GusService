@@ -174,6 +174,10 @@ class ULICHandler1 : NSObject, XMLParserDelegate {
                 self.RODZ = rodzGmiDict[self.RODZ!]
                 innerPowiatDict = getInnerPowiatDict(key: self.WOJ!)!
                 self.POW = innerPowiatDict[self.POW!]
+                guard self.POW != nil else {
+                    self.POW = ""
+                    return
+                }
                 for (value, key) in wojewDict {
                     if value == self.WOJ! {
                         self.WOJ = key

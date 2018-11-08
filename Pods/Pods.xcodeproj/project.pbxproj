@@ -7,99 +7,183 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		069D3E3134A2F7072DDFD8A079C08CFA /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C481FACDFEEAEE7B49A159BDAF0DEA3 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ED3358CBC0F1AF14F4755C3D6CE68DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03D525EBD2B1B2D3C9A3A61589ABA5A /* QuartzCore.framework */; };
-		1FA41D1278A0F42C1B52302712F9AA58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */; };
-		240A0F0EFC70E12766B3BDF2370CB6E7 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64839C537809D02C4C8E4B430FA063D /* DPDUIView+Extension.swift */; };
-		3E94C5F850FF4D260127897C8E81E660 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE6FB6D12E9D7F68DF930B0DAE81B40 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49473E945910402BE600FC38A380BA67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */; };
-		49D9535D4C5F930D4030341ED2F96A35 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D48706E8685A33759EB6CC54937B9 /* DPDKeyboardListener.swift */; };
-		4E2907E894E715930D8A1048855A6BAF /* Pods-GusService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C0917B4DBA10BBAE9C7D675FCD127 /* Pods-GusService-dummy.m */; };
-		573FA8A312D833DA2F1FF734419EE989 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57FA3726A5BE719C71E9C149A83EF4 /* DropDown-dummy.m */; };
-		721DFC8895916A21DD867CA632535561 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8455B74DF814736FB71AA8DECE346D47 /* SVProgressHUD.bundle */; };
-		73BD4A2A1364644A6FFE8BF53AFB2785 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB41014600AEF7D6D10383561B2542C2 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		785D615A2FC35304DA95DF747B75EDF2 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4283B5B030680401AA2F77B7ED6B1332 /* SVProgressHUD-dummy.m */; };
-		804327868FB7E3C979EB7419A04CE599 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CE6FC6E93771B64450D99314B618F /* SVIndefiniteAnimatedView.m */; };
-		89A682C4E3E4B1B55085832D4CFB4ADA /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B6EC44F3E730C782EFF02710A2CA7 /* DropDownCell.swift */; };
-		94A7DFD684BC8AE0EEF13BA17610C7C6 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D2340FF92DA1F584DE5E44C8A9B6B /* DropDown.swift */; };
-		9576D2E0139EAB6ED48F5F3AE3E10835 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0A9B277AF0DA09DB126BF8A172AF07 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B59E75CB029C100A622924064730EE7A /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 669A3B0130C0D96F69BB18C4CA595457 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBAF0B7D509E589332E607B780AD7350 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A6C03B509998A7C5C5B007B11E1DDDE /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF5E2CEF804244DF0D0F9C8413BE8ACE /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA48C3D814D93E464CB08690B0AA4BA /* SVProgressHUD.m */; };
-		C3851EB5463F8F3669AC09D6B1376A88 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0641AE45798591EE1C2B733E9AE3F52A /* DropDown+Appearance.swift */; };
-		D04FF0855AD40FF4D82FC004DE159060 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F46E3F92FE75C566CC4FA1E4F71AAF7F /* SVRadialGradientLayer.m */; };
-		D1E048A3A78739C04DF2B4B6048449D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */; };
-		D61A228E64DF4E120F3B7AE042832FC9 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C05783D422F152795947BF2E91288 /* SVProgressAnimatedView.m */; };
-		D77ACF6B5C10BC99352E37394E74EF0D /* Pods-GusService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15435E469A98ECC51D27954A531314BF /* Pods-GusService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9DCC833AEACEAC21F569BEBB9170D86 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F5249A3D461102FD3C8DC1391AEC9C /* DPDConstants.swift */; };
-		FF168F05DFAE21A2FFF0BD61B869E2BB /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFA35376B94491F235B48690E4F76F1 /* DropDownCell.xib */; };
+		0569D1206E9CCB587DC22BFF66159EB0 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD7C69C66D3EAF1338608AD8A229F3 /* SVProgressAnimatedView.m */; };
+		058ABAF42FA41AF6B86B5A2C73C161F1 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F442B505285E5E6826A7677F957AA5 /* UIImage+ChameleonPrivate.m */; };
+		0D598634083EF0EEA92D9B6D7D9DB182 /* Pods-GusService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15435E469A98ECC51D27954A531314BF /* Pods-GusService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16FCF4D22F584F3E429C85FF0A38A751 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 96840D48EE63DEA734DC8FA142297BA7 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18664D7207318ABD018F139B52543492 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E886B8A5323A225031593C734420F7 /* CoreGraphics.framework */; };
+		240A0F0EFC70E12766B3BDF2370CB6E7 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A6EA6408C0B70783BAA2077DFB0CD /* DPDUIView+Extension.swift */; };
+		2E6BFF408B63A15A7E996B43B352BF3C /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4612B9B6FAFB4BDD3E862DECA44A0F /* UIView+ChameleonPrivate.m */; };
+		2E718BB83D6D450CB4A00C3C8E80221E /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3A452841A8A831DDF6724BE50C8C9A /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		317412DB341FB6A33D3FE0C5E8474973 /* Pods-GusService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C0917B4DBA10BBAE9C7D675FCD127 /* Pods-GusService-dummy.m */; };
+		32DFD092F9BE0BDE0D4DEEA84E713D4F /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF6D84CB83840AA1771BFEF8642FC94 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350C7F5DDB3E7825AF0DFCD91E1CA6BF /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C161827940B99AF892ED93E8B049A0 /* UIColor+Chameleon.m */; };
+		3AFFB565BBE38E813794E136B9F07832 /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = E239ACC7A2A964D2045499C5C9535551 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DFEDD8DA551D14D5C1EDA8E8CD95EF9 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBCA8FB8FBB03D2EE818C72BD24FD4B /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49473E945910402BE600FC38A380BA67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
+		49D9535D4C5F930D4030341ED2F96A35 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35332A730E054241970B9DB1AFC2B647 /* DPDKeyboardListener.swift */; };
+		4FE7386C9F61B67F18AAE045D317BF68 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F405AE0021BA3E6A7DAB47DB098018E /* UILabel+Chameleon.m */; };
+		50212666FB360C08B4E7A39DB926260E /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B40C4787124D865F45DE641A47BBD739 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		533A9764DE189337D8E558F4031A2A1D /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B89C91282B842BCE80FAB2CEABACE /* Chameleon_.m */; };
+		573FA8A312D833DA2F1FF734419EE989 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF863AC2A6414C144BB6C57E13A0BA3 /* DropDown-dummy.m */; };
+		60AE60C59E72D332436D9AB0FE50A6A7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A4876629B023559F1712295C09C64DFD /* SVProgressHUD.m */; };
+		6160CC839154784B974F4120EC1B82C2 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 240534C4114F866E9279053A43AD89AD /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		634FEEF38B8796A0A34FF1DBA3CD3C75 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AA845FD4E326FC8B8C851F2FD89BA3 /* SVRadialGradientLayer.m */; };
+		6545E969C571745EE28F2F8A00212D45 /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5521DF470A73370A98692FDEBDE6DE /* ChameleonFramework-dummy.m */; };
+		6CE49BF2883BEAD623FE702ECDA5C508 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCD44A3FA4F5FB40DFB0DBBE2923612 /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		741FDA313164BF386A7BADA9DE6A272C /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BBFF190AF147932CB8D325FEA23A288 /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BC8CA21A04DAC9ECB08D905BF13608C /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F692A713683BC7FB6BF3C1E909EF4A8 /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A682C4E3E4B1B55085832D4CFB4ADA /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F62BA7A9B1458CC9F1C06CCCB38E30 /* DropDownCell.swift */; };
+		93282DF197C85F95CCE06545662D080C /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6222713DAF39944C62F4F37A66CDD5 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94A7DFD684BC8AE0EEF13BA17610C7C6 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05297B37B887CBAECDB2636D0EC5C4 /* DropDown.swift */; };
+		9B815042C4ABA40581E40B80F34D9B44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
+		9CB529305884D774BDCB2FDD5F7B27A0 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B1477253E02581E0B25CB77D007064 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35F9A4C8C7E3EE526F99863BF2D3EEA /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B16E97552BC5CB968CAD32A52FA438A6 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4BBC2B219A7C1C3DE52B9CCB1E52839 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B90AFAE07EC74D453FAC00D483E79117 /* SVProgressHUD.bundle */; };
+		A76598C3510844F22ECA6ABEB351F390 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF2BD462FFF6A5C7C0978D60CF6F605 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8483FA08C7504C84AAFA435EC431387 /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CB889A5EA2C2E2BB75B4015181618 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9545A5C00250343397D4553276C9123 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = C3866EDD5B42F4B3B4EF41DA615400A5 /* NSArray+Chameleon.m */; };
+		A9E8BF7B194CF266508F39D3123BFCB9 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF69168C5DDC32D2E17F44199FAF7AB /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE90811F6C330C0483BE86C370611882 /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FB91B7ED8019B1358BA0817FB7E421F7 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B031532D7673C9889B31F453BAEEB88D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE2CE86CEAA9896D6244DE9999C4B48 /* UIKit.framework */; };
+		B59E75CB029C100A622924064730EE7A /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D09D5BFE8441FDC788CCD8347D0356 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3851EB5463F8F3669AC09D6B1376A88 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31690367E4884B3F67AB32DDB3231F25 /* DropDown+Appearance.swift */; };
+		C41BD8A4186B959A444CA716EA88394A /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B72BD3BD3239AE8EAAD9B5F4DDAB5 /* UIButton+Chameleon.m */; };
+		C467B76D04829423BD08B6162D18D93C /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 57320E442D2A7237DDA4FE488AB45E73 /* ChameleonConstants.m */; };
+		C4FD2CBFD772CB041B731300413E3BF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8205DCE243CEBCEAAFFDB2563B65CD4 /* QuartzCore.framework */; };
+		CAA5ECF5204B708839BD9CAEAF96E3D9 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A7A8F22E074A5A36C69384F33EA4F /* SVIndefiniteAnimatedView.m */; };
+		CBE297DAC7DA62EC44B02AA2CF3FDB2C /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D566018D4BED1B69EB9C384A35642 /* UINavigationController+Chameleon.m */; };
+		CC5122C92F9A21C35E4524174D05C52B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
+		CF939562F429C5CD53627406F4491314 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2D2668D4FF39B0BF730482BB1E36EE /* UIColor+ChameleonPrivate.m */; };
+		D006EFA3825EA9B760234C053F5DD394 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2796083F2055F7253833617FBAD00 /* UIAppearance+Swift.m */; };
+		D2F1D3744CDB46E673C8CA26FAA92B8C /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3611D6CC95DFAD8951D3E9D4631425 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9DCC833AEACEAC21F569BEBB9170D86 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A82C3D9E131588606878D12A8677F3 /* DPDConstants.swift */; };
+		DB565528C40C1637A3893DC4DDC0E332 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5067EEA7628BBEAB10192BE42760166B /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E16CF9C974AFA7CB156AA72E71A1365B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
+		E1EBB5D81A529D438F66C7D6D1D5891E /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B01D54126E574AFB93DF20E28D2FE4B /* UIViewController+Chameleon.m */; };
+		E7F2323F869B553F8E6B987D3232354C /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E194BBB4667A6F53B0DDB534E3D3824 /* SVProgressHUD-dummy.m */; };
+		F25A402EF79272E1802569409E7B3345 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8205DCE243CEBCEAAFFDB2563B65CD4 /* QuartzCore.framework */; };
+		F442C35711C3B60C74D66F237619C391 /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 896BF458B085D119C6F3C88F393C8E2A /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B03991D0708E3C8909CE66F291ECA8 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 7730561B752CE9815912823C410BDB71 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF168F05DFAE21A2FFF0BD61B869E2BB /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5B5F746CD78D1EC26C848B8EE46157C /* DropDownCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		70590F5A403E96720CB40CF2ED8412C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6FF2105692ED79660F09FC7EFBE1BF29;
-			remoteInfo = SVProgressHUD;
-		};
-		9C3526D25A789F7D7AF87FD0959BE862 /* PBXContainerItemProxy */ = {
+		26C52E7BB9306B5FC85A4E6D64B42DBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FD1ECC3979ED6D745803FF751221D70C;
 			remoteInfo = DropDown;
 		};
+		57E0D75511FF996BECF0A6DE1C090971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7CF2BDDC55BED4B83281091089EEE43;
+			remoteInfo = SVProgressHUD;
+		};
+		F5E203D73E6A0768B0922B6FB4071D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4273171B8F85B95806C7A7AEE258783F;
+			remoteInfo = ChameleonFramework;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		043D2340FF92DA1F584DE5E44C8A9B6B /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
-		0641AE45798591EE1C2B733E9AE3F52A /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		036D566018D4BED1B69EB9C384A35642 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		057CFB8E474FDFC3AD87A3D2EA370973 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		074EDCF629EB0ED09B85ABA96B8B5961 /* Pods-GusService-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GusService-resources.sh"; sourceTree = "<group>"; };
-		0A6C03B509998A7C5C5B007B11E1DDDE /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		0CCD44A3FA4F5FB40DFB0DBBE2923612 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		0F405AE0021BA3E6A7DAB47DB098018E /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		105CB889A5EA2C2E2BB75B4015181618 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		12A5FD36F0B738F73F4A4F970A3B7BAC /* Pods-GusService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GusService.release.xcconfig"; sourceTree = "<group>"; };
 		15435E469A98ECC51D27954A531314BF /* Pods-GusService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GusService-umbrella.h"; sourceTree = "<group>"; };
-		19F5249A3D461102FD3C8DC1391AEC9C /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
-		1BAAD141D4F04969422348F3827F2252 /* Pods_GusService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GusService.framework; path = "Pods-GusService.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FFA35376B94491F235B48690E4F76F1 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
-		225B6EC44F3E730C782EFF02710A2CA7 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
-		243D48706E8685A33759EB6CC54937B9 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
-		4283B5B030680401AA2F77B7ED6B1332 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		479C207959ECF688BC10F237F623D9A5 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
-		4D57FA3726A5BE719C71E9C149A83EF4 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
-		5117580AF0962B214C0A6D4A9888BE7F /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		51EF67872CCC0938E3D4500EDF9F5BFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		669A3B0130C0D96F69BB18C4CA595457 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
-		69FBA1315F079AA922ACE6EB930FD307 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
-		6BF92C871B26CA96E9EB418CDBADB7C9 /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
-		6C5A371A8BCA94F4C1F01C7ABE794F03 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F0A9B277AF0DA09DB126BF8A172AF07 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		6FA48C3D814D93E464CB08690B0AA4BA /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		7C481FACDFEEAEE7B49A159BDAF0DEA3 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		8455B74DF814736FB71AA8DECE346D47 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		8E4379E0552E2A8DD366C05CB4EFCC96 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0E2BB28A8A13AB813558E7C41B6520 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		1A2F9359693D0C224397B6386DA7AC22 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		1AF69168C5DDC32D2E17F44199FAF7AB /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		1C3611D6CC95DFAD8951D3E9D4631425 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		1FF6D84CB83840AA1771BFEF8642FC94 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		218C1E9DA5E8B09821601A09AE26611B /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		240534C4114F866E9279053A43AD89AD /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		29BF390C540900041F9B3325409D1BDC /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		2CECD6C84E628B5AD50728844694E117 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		31690367E4884B3F67AB32DDB3231F25 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		35332A730E054241970B9DB1AFC2B647 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		3755926B11CB1EE2B92E5D55A88AA574 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D09D5BFE8441FDC788CCD8347D0356 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		3BBFF190AF147932CB8D325FEA23A288 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		42B1477253E02581E0B25CB77D007064 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		455C0496ED939400297BA6E73E087BD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AA845FD4E326FC8B8C851F2FD89BA3 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		4B01D54126E574AFB93DF20E28D2FE4B /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		4B6222713DAF39944C62F4F37A66CDD5 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		4D61D70D35DA63D44FFF275A7631FA7B /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0A7A8F22E074A5A36C69384F33EA4F /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		4F9B89C91282B842BCE80FAB2CEABACE /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		5067EEA7628BBEAB10192BE42760166B /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		57320E442D2A7237DDA4FE488AB45E73 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		5C3A452841A8A831DDF6724BE50C8C9A /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		5D06D9A61AEE20A5102361524E884C8F /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		5D2D2668D4FF39B0BF730482BB1E36EE /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		600A6EA6408C0B70783BAA2077DFB0CD /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		6F692A713683BC7FB6BF3C1E909EF4A8 /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75306D5F32F87A91EBDA61BF9CFB379B /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		7730561B752CE9815912823C410BDB71 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		7DBCA8FB8FBB03D2EE818C72BD24FD4B /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		7E194BBB4667A6F53B0DDB534E3D3824 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		7EF2BD462FFF6A5C7C0978D60CF6F605 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		82852714849E8423816C977754F8605C /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		896BF458B085D119C6F3C88F393C8E2A /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		8A9EA14013E7A9360B7362A2EEF16748 /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F7C05783D422F152795947BF2E91288 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		96840D48EE63DEA734DC8FA142297BA7 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		9A8EAAAEFAA0AA65F9FB30188C4BE8ED /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5521DF470A73370A98692FDEBDE6DE /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		A4876629B023559F1712295C09C64DFD /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		A4C2796083F2055F7253833617FBAD00 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
 		A6B617ED654C2ABE9ABA6A7CD4374571 /* Pods-GusService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GusService.modulemap"; sourceTree = "<group>"; };
-		AE2050965AA1EA11D22553BD2A021E62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE8CE6FC6E93771B64450D99314B618F /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		AE4612B9B6FAFB4BDD3E862DECA44A0F /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
 		B12C0917B4DBA10BBAE9C7D675FCD127 /* Pods-GusService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GusService-dummy.m"; sourceTree = "<group>"; };
-		B64839C537809D02C4C8E4B430FA063D /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
-		B7F20DAF4ABB925F5F632905458E307C /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		B16E97552BC5CB968CAD32A52FA438A6 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		B3F62BA7A9B1458CC9F1C06CCCB38E30 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		B40C4787124D865F45DE641A47BBD739 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		B80BEAC8113A8D670B21A4275FF742F7 /* Pods_GusService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GusService.framework; path = "Pods-GusService.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C161827940B99AF892ED93E8B049A0 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		B8E886B8A5323A225031593C734420F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B90AFAE07EC74D453FAC00D483E79117 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		BC813ECD79DE734D86520D1CFC9BC99A /* Pods-GusService-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GusService-acknowledgements.plist"; sourceTree = "<group>"; };
-		BCC78B4F387D5F0A868A2EDF68054EBE /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		C3866EDD5B42F4B3B4EF41DA615400A5 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
 		C45D94D1BFF9A9CED29D1032D71C91B4 /* Pods-GusService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GusService.debug.xcconfig"; sourceTree = "<group>"; };
-		CAE6FB6D12E9D7F68DF930B0DAE81B40 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		CB41014600AEF7D6D10383561B2542C2 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		C8F442B505285E5E6826A7677F957AA5 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
 		CB9D497459026A5B691515267EAC5AEA /* Pods-GusService-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GusService-frameworks.sh"; sourceTree = "<group>"; };
+		CF2B72BD3BD3239AE8EAAD9B5F4DDAB5 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		D1A82C3D9E131588606878D12A8677F3 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
 		DD0A99C5CAC7BDEB95D82393CCF51803 /* Pods-GusService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GusService-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFF863AC2A6414C144BB6C57E13A0BA3 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		E239ACC7A2A964D2045499C5C9535551 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		E2BD7C69C66D3EAF1338608AD8A229F3 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		E5B5F746CD78D1EC26C848B8EE46157C /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
 		E806618D6BFD281379A1884F8FEC9C6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F03D525EBD2B1B2D3C9A3A61589ABA5A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		F46E3F92FE75C566CC4FA1E4F71AAF7F /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		EBE2CE86CEAA9896D6244DE9999C4B48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F8205DCE243CEBCEAAFFDB2563B65CD4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F8B8FC2BC1E140180A42CFECB7392C4E /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		FB05297B37B887CBAECDB2636D0EC5C4 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		FB91B7ED8019B1358BA0817FB7E421F7 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		06A69427AA3759FCB1B60EA79F380149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B815042C4ABA40581E40B80F34D9B44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4446B0A3B23383BE2A37E7A7C9BDAC6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,102 +192,170 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69F0BBDAE82819D1E92CF4D08C001F4C /* Frameworks */ = {
+		490C2BF785E49900C2AF94977BD5BF15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1E048A3A78739C04DF2B4B6048449D4 /* Foundation.framework in Frameworks */,
+				18664D7207318ABD018F139B52543492 /* CoreGraphics.framework in Frameworks */,
+				E16CF9C974AFA7CB156AA72E71A1365B /* Foundation.framework in Frameworks */,
+				F25A402EF79272E1802569409E7B3345 /* QuartzCore.framework in Frameworks */,
+				B031532D7673C9889B31F453BAEEB88D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F10A047D519E25B12D1AD58FAEF68B2C /* Frameworks */ = {
+		FA551A2A7D00A592EA47B9C81A6ED891 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA41D1278A0F42C1B52302712F9AA58 /* Foundation.framework in Frameworks */,
-				0ED3358CBC0F1AF14F4755C3D6CE68DE /* QuartzCore.framework in Frameworks */,
+				CC5122C92F9A21C35E4524174D05C52B /* Foundation.framework in Frameworks */,
+				C4FD2CBFD772CB041B731300413E3BF4 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AD409E8C49C701C03AF0F4076EB7D56 /* Products */ = {
+		10B9FFE8C18B65F885C65582991DB27B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6C5A371A8BCA94F4C1F01C7ABE794F03 /* DropDown.framework */,
-				1BAAD141D4F04969422348F3827F2252 /* Pods_GusService.framework */,
-				8E4379E0552E2A8DD366C05CB4EFCC96 /* SVProgressHUD.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7B77A7A05442780EC92DC1750CA2454E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46026345753F67AA4B53B5469F7B1A94 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8455B74DF814736FB71AA8DECE346D47 /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		6E5E6630582F88827AA3DD9F7160B153 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE2050965AA1EA11D22553BD2A021E62 /* Info.plist */,
-				B7F20DAF4ABB925F5F632905458E307C /* SVProgressHUD.modulemap */,
-				BCC78B4F387D5F0A868A2EDF68054EBE /* SVProgressHUD.xcconfig */,
-				4283B5B030680401AA2F77B7ED6B1332 /* SVProgressHUD-dummy.m */,
-				5117580AF0962B214C0A6D4A9888BE7F /* SVProgressHUD-prefix.pch */,
-				0A6C03B509998A7C5C5B007B11E1DDDE /* SVProgressHUD-umbrella.h */,
+				455C0496ED939400297BA6E73E087BD5 /* Info.plist */,
+				82852714849E8423816C977754F8605C /* SVProgressHUD.modulemap */,
+				F8B8FC2BC1E140180A42CFECB7392C4E /* SVProgressHUD.xcconfig */,
+				7E194BBB4667A6F53B0DDB534E3D3824 /* SVProgressHUD-dummy.m */,
+				1A0E2BB28A8A13AB813558E7C41B6520 /* SVProgressHUD-prefix.pch */,
+				B40C4787124D865F45DE641A47BBD739 /* SVProgressHUD-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
-		7B77A7A05442780EC92DC1750CA2454E /* iOS */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */,
-				F03D525EBD2B1B2D3C9A3A61589ABA5A /* QuartzCore.framework */,
+				4725EC43CB891FB958E82D265451CEF5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F7FA3FBB210B97B16C418192AAB0B0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B90AFAE07EC74D453FAC00D483E79117 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2FC2B2BA3C118587C1C3065BB1581BB0 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7EF2BD462FFF6A5C7C0978D60CF6F605 /* SVIndefiniteAnimatedView.h */,
+				4F0A7A8F22E074A5A36C69384F33EA4F /* SVIndefiniteAnimatedView.m */,
+				4B6222713DAF39944C62F4F37A66CDD5 /* SVProgressAnimatedView.h */,
+				E2BD7C69C66D3EAF1338608AD8A229F3 /* SVProgressAnimatedView.m */,
+				5067EEA7628BBEAB10192BE42760166B /* SVProgressHUD.h */,
+				A4876629B023559F1712295C09C64DFD /* SVProgressHUD.m */,
+				96840D48EE63DEA734DC8FA142297BA7 /* SVRadialGradientLayer.h */,
+				46AA845FD4E326FC8B8C851F2FD89BA3 /* SVRadialGradientLayer.m */,
+				1F7FA3FBB210B97B16C418192AAB0B0E /* Resources */,
+				10B9FFE8C18B65F885C65582991DB27B /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		34CDB90538C6477AEF05A9478C926AA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A9EA14013E7A9360B7362A2EEF16748 /* ChameleonFramework.framework */,
+				4D61D70D35DA63D44FFF275A7631FA7B /* DropDown.framework */,
+				B80BEAC8113A8D670B21A4275FF742F7 /* Pods_GusService.framework */,
+				9A8EAAAEFAA0AA65F9FB30188C4BE8ED /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		459E2BF40E44288881491ED28BE9FC61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				218C1E9DA5E8B09821601A09AE26611B /* ChameleonFramework.modulemap */,
+				29BF390C540900041F9B3325409D1BDC /* ChameleonFramework.xcconfig */,
+				9E5521DF470A73370A98692FDEBDE6DE /* ChameleonFramework-dummy.m */,
+				2CECD6C84E628B5AD50728844694E117 /* ChameleonFramework-prefix.pch */,
+				B16E97552BC5CB968CAD32A52FA438A6 /* ChameleonFramework-umbrella.h */,
+				057CFB8E474FDFC3AD87A3D2EA370973 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+		4725EC43CB891FB958E82D265451CEF5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B8E886B8A5323A225031593C734420F7 /* CoreGraphics.framework */,
+				749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */,
+				F8205DCE243CEBCEAAFFDB2563B65CD4 /* QuartzCore.framework */,
+				EBE2CE86CEAA9896D6244DE9999C4B48 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		494E02E04AD9181EC48E2BF27FD5CBDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFF80F2931D84102EB62A2936B478C68 /* ChameleonFramework */,
+				5D78FDF5F862B69FC3F9BC90280AF7F2 /* DropDown */,
+				2FC2B2BA3C118587C1C3065BB1581BB0 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C5A78740DBAC7CD0A1DAAB7FF60DFC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5B5F746CD78D1EC26C848B8EE46157C /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5D78FDF5F862B69FC3F9BC90280AF7F2 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				D1A82C3D9E131588606878D12A8677F3 /* DPDConstants.swift */,
+				35332A730E054241970B9DB1AFC2B647 /* DPDKeyboardListener.swift */,
+				600A6EA6408C0B70783BAA2077DFB0CD /* DPDUIView+Extension.swift */,
+				FB05297B37B887CBAECDB2636D0EC5C4 /* DropDown.swift */,
+				31690367E4884B3F67AB32DDB3231F25 /* DropDown+Appearance.swift */,
+				B3F62BA7A9B1458CC9F1C06CCCB38E30 /* DropDownCell.swift */,
+				4C5A78740DBAC7CD0A1DAAB7FF60DFC2 /* Resources */,
+				60BD1B66A705C901AC62CC35798741E3 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		60BD1B66A705C901AC62CC35798741E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A2F9359693D0C224397B6386DA7AC22 /* DropDown.modulemap */,
+				5D06D9A61AEE20A5102361524E884C8F /* DropDown.xcconfig */,
+				DFF863AC2A6414C144BB6C57E13A0BA3 /* DropDown-dummy.m */,
+				75306D5F32F87A91EBDA61BF9CFB379B /* DropDown-prefix.pch */,
+				38D09D5BFE8441FDC788CCD8347D0356 /* DropDown-umbrella.h */,
+				3755926B11CB1EE2B92E5D55A88AA574 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				96BBE5BEFEB10269AAD5A6AF5AFC878E /* Pods */,
-				2AD409E8C49C701C03AF0F4076EB7D56 /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				494E02E04AD9181EC48E2BF27FD5CBDA /* Pods */,
+				34CDB90538C6477AEF05A9478C926AA6 /* Products */,
 				AAA2DBDCACDAE8E7D114B3C7BA37938D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8749735C79F77DD250B36934BA8E7D57 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				7C481FACDFEEAEE7B49A159BDAF0DEA3 /* SVIndefiniteAnimatedView.h */,
-				AE8CE6FC6E93771B64450D99314B618F /* SVIndefiniteAnimatedView.m */,
-				6F0A9B277AF0DA09DB126BF8A172AF07 /* SVProgressAnimatedView.h */,
-				9F7C05783D422F152795947BF2E91288 /* SVProgressAnimatedView.m */,
-				CAE6FB6D12E9D7F68DF930B0DAE81B40 /* SVProgressHUD.h */,
-				6FA48C3D814D93E464CB08690B0AA4BA /* SVProgressHUD.m */,
-				CB41014600AEF7D6D10383561B2542C2 /* SVRadialGradientLayer.h */,
-				F46E3F92FE75C566CC4FA1E4F71AAF7F /* SVRadialGradientLayer.m */,
-				46026345753F67AA4B53B5469F7B1A94 /* Resources */,
-				6E5E6630582F88827AA3DD9F7160B153 /* Support Files */,
-			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		913EA2AB2B6D403BFCEDB85712211BFA /* Pods-GusService */ = {
@@ -224,27 +376,38 @@
 			path = "Target Support Files/Pods-GusService";
 			sourceTree = "<group>";
 		};
-		94222040C3F0558B4850C4F671433BAA /* Support Files */ = {
+		A83532E44DB2FD35E2456A9295F28619 /* Default */ = {
 			isa = PBXGroup;
 			children = (
-				69FBA1315F079AA922ACE6EB930FD307 /* DropDown.modulemap */,
-				6BF92C871B26CA96E9EB418CDBADB7C9 /* DropDown.xcconfig */,
-				4D57FA3726A5BE719C71E9C149A83EF4 /* DropDown-dummy.m */,
-				479C207959ECF688BC10F237F623D9A5 /* DropDown-prefix.pch */,
-				669A3B0130C0D96F69BB18C4CA595457 /* DropDown-umbrella.h */,
-				51EF67872CCC0938E3D4500EDF9F5BFE /* Info.plist */,
+				1AF69168C5DDC32D2E17F44199FAF7AB /* Chameleon.h */,
+				7730561B752CE9815912823C410BDB71 /* Chameleon_.h */,
+				4F9B89C91282B842BCE80FAB2CEABACE /* Chameleon_.m */,
+				FB91B7ED8019B1358BA0817FB7E421F7 /* ChameleonConstants.h */,
+				57320E442D2A7237DDA4FE488AB45E73 /* ChameleonConstants.m */,
+				6F692A713683BC7FB6BF3C1E909EF4A8 /* ChameleonEnums.h */,
+				896BF458B085D119C6F3C88F393C8E2A /* ChameleonMacros.h */,
+				5C3A452841A8A831DDF6724BE50C8C9A /* NSArray+Chameleon.h */,
+				C3866EDD5B42F4B3B4EF41DA615400A5 /* NSArray+Chameleon.m */,
+				3BBFF190AF147932CB8D325FEA23A288 /* UIAppearance+Swift.h */,
+				A4C2796083F2055F7253833617FBAD00 /* UIAppearance+Swift.m */,
+				1C3611D6CC95DFAD8951D3E9D4631425 /* UIButton+Chameleon.h */,
+				CF2B72BD3BD3239AE8EAAD9B5F4DDAB5 /* UIButton+Chameleon.m */,
+				1FF6D84CB83840AA1771BFEF8642FC94 /* UIColor+Chameleon.h */,
+				B8C161827940B99AF892ED93E8B049A0 /* UIColor+Chameleon.m */,
+				240534C4114F866E9279053A43AD89AD /* UIColor+ChameleonPrivate.h */,
+				5D2D2668D4FF39B0BF730482BB1E36EE /* UIColor+ChameleonPrivate.m */,
+				105CB889A5EA2C2E2BB75B4015181618 /* UIImage+ChameleonPrivate.h */,
+				C8F442B505285E5E6826A7677F957AA5 /* UIImage+ChameleonPrivate.m */,
+				E239ACC7A2A964D2045499C5C9535551 /* UILabel+Chameleon.h */,
+				0F405AE0021BA3E6A7DAB47DB098018E /* UILabel+Chameleon.m */,
+				7DBCA8FB8FBB03D2EE818C72BD24FD4B /* UINavigationController+Chameleon.h */,
+				036D566018D4BED1B69EB9C384A35642 /* UINavigationController+Chameleon.m */,
+				0CCD44A3FA4F5FB40DFB0DBBE2923612 /* UIView+ChameleonPrivate.h */,
+				AE4612B9B6FAFB4BDD3E862DECA44A0F /* UIView+ChameleonPrivate.m */,
+				42B1477253E02581E0B25CB77D007064 /* UIViewController+Chameleon.h */,
+				4B01D54126E574AFB93DF20E28D2FE4B /* UIViewController+Chameleon.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DropDown";
-			sourceTree = "<group>";
-		};
-		96BBE5BEFEB10269AAD5A6AF5AFC878E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C917C9CF0F030E30670ECEAC54FC2B8B /* DropDown */,
-				8749735C79F77DD250B36934BA8E7D57 /* SVProgressHUD */,
-			);
-			name = Pods;
+			name = Default;
 			sourceTree = "<group>";
 		};
 		AAA2DBDCACDAE8E7D114B3C7BA37938D /* Targets Support Files */ = {
@@ -255,33 +418,62 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C917C9CF0F030E30670ECEAC54FC2B8B /* DropDown */ = {
+		FFF80F2931D84102EB62A2936B478C68 /* ChameleonFramework */ = {
 			isa = PBXGroup;
 			children = (
-				19F5249A3D461102FD3C8DC1391AEC9C /* DPDConstants.swift */,
-				243D48706E8685A33759EB6CC54937B9 /* DPDKeyboardListener.swift */,
-				B64839C537809D02C4C8E4B430FA063D /* DPDUIView+Extension.swift */,
-				043D2340FF92DA1F584DE5E44C8A9B6B /* DropDown.swift */,
-				0641AE45798591EE1C2B733E9AE3F52A /* DropDown+Appearance.swift */,
-				225B6EC44F3E730C782EFF02710A2CA7 /* DropDownCell.swift */,
-				E19B069F8BBBCB01CF0A8D732F550110 /* Resources */,
-				94222040C3F0558B4850C4F671433BAA /* Support Files */,
+				A83532E44DB2FD35E2456A9295F28619 /* Default */,
+				459E2BF40E44288881491ED28BE9FC61 /* Support Files */,
 			);
-			name = DropDown;
-			path = DropDown;
-			sourceTree = "<group>";
-		};
-		E19B069F8BBBCB01CF0A8D732F550110 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1FFA35376B94491F235B48690E4F76F1 /* DropDownCell.xib */,
-			);
-			name = Resources;
+			name = ChameleonFramework;
+			path = ChameleonFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		23915BA7F81AA8B659E1E5C7ECF6853A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76598C3510844F22ECA6ABEB351F390 /* SVIndefiniteAnimatedView.h in Headers */,
+				93282DF197C85F95CCE06545662D080C /* SVProgressAnimatedView.h in Headers */,
+				50212666FB360C08B4E7A39DB926260E /* SVProgressHUD-umbrella.h in Headers */,
+				DB565528C40C1637A3893DC4DDC0E332 /* SVProgressHUD.h in Headers */,
+				16FCF4D22F584F3E429C85FF0A38A751 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54300B358FA282D36084AA0126604146 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E8BF7B194CF266508F39D3123BFCB9 /* Chameleon.h in Headers */,
+				F4B03991D0708E3C8909CE66F291ECA8 /* Chameleon_.h in Headers */,
+				AE90811F6C330C0483BE86C370611882 /* ChameleonConstants.h in Headers */,
+				7BC8CA21A04DAC9ECB08D905BF13608C /* ChameleonEnums.h in Headers */,
+				A35F9A4C8C7E3EE526F99863BF2D3EEA /* ChameleonFramework-umbrella.h in Headers */,
+				F442C35711C3B60C74D66F237619C391 /* ChameleonMacros.h in Headers */,
+				2E718BB83D6D450CB4A00C3C8E80221E /* NSArray+Chameleon.h in Headers */,
+				741FDA313164BF386A7BADA9DE6A272C /* UIAppearance+Swift.h in Headers */,
+				D2F1D3744CDB46E673C8CA26FAA92B8C /* UIButton+Chameleon.h in Headers */,
+				32DFD092F9BE0BDE0D4DEEA84E713D4F /* UIColor+Chameleon.h in Headers */,
+				6160CC839154784B974F4120EC1B82C2 /* UIColor+ChameleonPrivate.h in Headers */,
+				A8483FA08C7504C84AAFA435EC431387 /* UIImage+ChameleonPrivate.h in Headers */,
+				3AFFB565BBE38E813794E136B9F07832 /* UILabel+Chameleon.h in Headers */,
+				3DFEDD8DA551D14D5C1EDA8E8CD95EF9 /* UINavigationController+Chameleon.h in Headers */,
+				6CE49BF2883BEAD623FE702ECDA5C508 /* UIView+ChameleonPrivate.h in Headers */,
+				9CB529305884D774BDCB2FDD5F7B27A0 /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725C97979DBAA39C0781E3D4EBE847BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D598634083EF0EEA92D9B6D7D9DB182 /* Pods-GusService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C30D98263CC89C39DE616F507092D788 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,37 +482,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD3D3FA1688DD50E92207A92F619B384 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D77ACF6B5C10BC99352E37394E74EF0D /* Pods-GusService-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7C00E88C481A0417357B91A3C1C48A4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				069D3E3134A2F7072DDFD8A079C08CFA /* SVIndefiniteAnimatedView.h in Headers */,
-				9576D2E0139EAB6ED48F5F3AE3E10835 /* SVProgressAnimatedView.h in Headers */,
-				BBAF0B7D509E589332E607B780AD7350 /* SVProgressHUD-umbrella.h in Headers */,
-				3E94C5F850FF4D260127897C8E81E660 /* SVProgressHUD.h in Headers */,
-				73BD4A2A1364644A6FFE8BF53AFB2785 /* SVRadialGradientLayer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6FF2105692ED79660F09FC7EFBE1BF29 /* SVProgressHUD */ = {
+		4273171B8F85B95806C7A7AEE258783F /* ChameleonFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4222773956BDFF68BF6B3802CE9CB7CB /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = B4616CC585387D9A6335E1A1A4776AEA /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
 			buildPhases = (
-				E7C00E88C481A0417357B91A3C1C48A4 /* Headers */,
-				6B45EB50C1B3D55E38C7BCCCB82A8345 /* Sources */,
-				F10A047D519E25B12D1AD58FAEF68B2C /* Frameworks */,
-				A4D30B24103DA5DEF0D049BFBD3BECC7 /* Resources */,
+				54300B358FA282D36084AA0126604146 /* Headers */,
+				DBC505BC74D4B9107684E03C26E124A1 /* Sources */,
+				490C2BF785E49900C2AF94977BD5BF15 /* Frameworks */,
+				F9FD8BB69ECA8A8A8481522FDCD9806A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = 8A9EA14013E7A9360B7362A2EEF16748 /* ChameleonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7CF2BDDC55BED4B83281091089EEE43 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCE41A45865B113C2B59A186B6E3E1A /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				23915BA7F81AA8B659E1E5C7ECF6853A /* Headers */,
+				09BE0CEFA53D7514FBDECB1FC73C86F3 /* Sources */,
+				FA551A2A7D00A592EA47B9C81A6ED891 /* Frameworks */,
+				65DC3F30587B1C9D689588C02A2FF45A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -328,27 +518,28 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = 8E4379E0552E2A8DD366C05CB4EFCC96 /* SVProgressHUD.framework */;
+			productReference = 9A8EAAAEFAA0AA65F9FB30188C4BE8ED /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		850B3E24F4B0D7CA3A7EB3D69D5C22B8 /* Pods-GusService */ = {
+		E648E11946AA7BCD6EE4DDFE42B4B54D /* Pods-GusService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A53035812E916E8EEF0D87B0260219FB /* Build configuration list for PBXNativeTarget "Pods-GusService" */;
+			buildConfigurationList = CD0D0C59652C061189411292137D5C1E /* Build configuration list for PBXNativeTarget "Pods-GusService" */;
 			buildPhases = (
-				DD3D3FA1688DD50E92207A92F619B384 /* Headers */,
-				67A2B575763853B82D986A591EFF7C18 /* Sources */,
-				69F0BBDAE82819D1E92CF4D08C001F4C /* Frameworks */,
-				53CC944CD205C4D24992E8CA0F355FC4 /* Resources */,
+				725C97979DBAA39C0781E3D4EBE847BA /* Headers */,
+				81036101B559FA8DC16E374DAF2656C2 /* Sources */,
+				06A69427AA3759FCB1B60EA79F380149 /* Frameworks */,
+				D921EE0E8E68CC005CB05B61F4604EEE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				792DCE53662489D03203B8450604C931 /* PBXTargetDependency */,
-				201B7FE4D537E966B23A6C51C00263D6 /* PBXTargetDependency */,
+				D304603C8EE8CFFE4FE9EEE25D9E97AF /* PBXTargetDependency */,
+				21E32EC6E8D99D2E3F5B7EF4B6BF8D1E /* PBXTargetDependency */,
+				D8460D5D0C6C6ABFA1A7EA3CE1125625 /* PBXTargetDependency */,
 			);
 			name = "Pods-GusService";
 			productName = "Pods-GusService";
-			productReference = 1BAAD141D4F04969422348F3827F2252 /* Pods_GusService.framework */;
+			productReference = B80BEAC8113A8D670B21A4275FF742F7 /* Pods_GusService.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FD1ECC3979ED6D745803FF751221D70C /* DropDown */ = {
@@ -366,7 +557,7 @@
 			);
 			name = DropDown;
 			productName = DropDown;
-			productReference = 6C5A371A8BCA94F4C1F01C7ABE794F03 /* DropDown.framework */;
+			productReference = 4D61D70D35DA63D44FFF275A7631FA7B /* DropDown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -386,22 +577,24 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2AD409E8C49C701C03AF0F4076EB7D56 /* Products */;
+			productRefGroup = 34CDB90538C6477AEF05A9478C926AA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4273171B8F85B95806C7A7AEE258783F /* ChameleonFramework */,
 				FD1ECC3979ED6D745803FF751221D70C /* DropDown */,
-				850B3E24F4B0D7CA3A7EB3D69D5C22B8 /* Pods-GusService */,
-				6FF2105692ED79660F09FC7EFBE1BF29 /* SVProgressHUD */,
+				E648E11946AA7BCD6EE4DDFE42B4B54D /* Pods-GusService */,
+				C7CF2BDDC55BED4B83281091089EEE43 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		53CC944CD205C4D24992E8CA0F355FC4 /* Resources */ = {
+		65DC3F30587B1C9D689588C02A2FF45A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BBC2B219A7C1C3DE52B9CCB1E52839 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,17 +606,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4D30B24103DA5DEF0D049BFBD3BECC7 /* Resources */ = {
+		D921EE0E8E68CC005CB05B61F4604EEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721DFC8895916A21DD867CA632535561 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FD8BB69ECA8A8A8481522FDCD9806A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		09BE0CEFA53D7514FBDECB1FC73C86F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA5ECF5204B708839BD9CAEAF96E3D9 /* SVIndefiniteAnimatedView.m in Sources */,
+				0569D1206E9CCB587DC22BFF66159EB0 /* SVProgressAnimatedView.m in Sources */,
+				E7F2323F869B553F8E6B987D3232354C /* SVProgressHUD-dummy.m in Sources */,
+				60AE60C59E72D332436D9AB0FE50A6A7 /* SVProgressHUD.m in Sources */,
+				634FEEF38B8796A0A34FF1DBA3CD3C75 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3ADCE2BE57BDA56AE1CB3CE9A38A4F5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,47 +649,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67A2B575763853B82D986A591EFF7C18 /* Sources */ = {
+		81036101B559FA8DC16E374DAF2656C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E2907E894E715930D8A1048855A6BAF /* Pods-GusService-dummy.m in Sources */,
+				317412DB341FB6A33D3FE0C5E8474973 /* Pods-GusService-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B45EB50C1B3D55E38C7BCCCB82A8345 /* Sources */ = {
+		DBC505BC74D4B9107684E03C26E124A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				804327868FB7E3C979EB7419A04CE599 /* SVIndefiniteAnimatedView.m in Sources */,
-				D61A228E64DF4E120F3B7AE042832FC9 /* SVProgressAnimatedView.m in Sources */,
-				785D615A2FC35304DA95DF747B75EDF2 /* SVProgressHUD-dummy.m in Sources */,
-				BF5E2CEF804244DF0D0F9C8413BE8ACE /* SVProgressHUD.m in Sources */,
-				D04FF0855AD40FF4D82FC004DE159060 /* SVRadialGradientLayer.m in Sources */,
+				533A9764DE189337D8E558F4031A2A1D /* Chameleon_.m in Sources */,
+				C467B76D04829423BD08B6162D18D93C /* ChameleonConstants.m in Sources */,
+				6545E969C571745EE28F2F8A00212D45 /* ChameleonFramework-dummy.m in Sources */,
+				A9545A5C00250343397D4553276C9123 /* NSArray+Chameleon.m in Sources */,
+				D006EFA3825EA9B760234C053F5DD394 /* UIAppearance+Swift.m in Sources */,
+				C41BD8A4186B959A444CA716EA88394A /* UIButton+Chameleon.m in Sources */,
+				350C7F5DDB3E7825AF0DFCD91E1CA6BF /* UIColor+Chameleon.m in Sources */,
+				CF939562F429C5CD53627406F4491314 /* UIColor+ChameleonPrivate.m in Sources */,
+				058ABAF42FA41AF6B86B5A2C73C161F1 /* UIImage+ChameleonPrivate.m in Sources */,
+				4FE7386C9F61B67F18AAE045D317BF68 /* UILabel+Chameleon.m in Sources */,
+				CBE297DAC7DA62EC44B02AA2CF3FDB2C /* UINavigationController+Chameleon.m in Sources */,
+				2E6BFF408B63A15A7E996B43B352BF3C /* UIView+ChameleonPrivate.m in Sources */,
+				E1EBB5D81A529D438F66C7D6D1D5891E /* UIViewController+Chameleon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		201B7FE4D537E966B23A6C51C00263D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 6FF2105692ED79660F09FC7EFBE1BF29 /* SVProgressHUD */;
-			targetProxy = 70590F5A403E96720CB40CF2ED8412C4 /* PBXContainerItemProxy */;
-		};
-		792DCE53662489D03203B8450604C931 /* PBXTargetDependency */ = {
+		21E32EC6E8D99D2E3F5B7EF4B6BF8D1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DropDown;
 			target = FD1ECC3979ED6D745803FF751221D70C /* DropDown */;
-			targetProxy = 9C3526D25A789F7D7AF87FD0959BE862 /* PBXContainerItemProxy */;
+			targetProxy = 26C52E7BB9306B5FC85A4E6D64B42DBB /* PBXContainerItemProxy */;
+		};
+		D304603C8EE8CFFE4FE9EEE25D9E97AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 4273171B8F85B95806C7A7AEE258783F /* ChameleonFramework */;
+			targetProxy = F5E203D73E6A0768B0922B6FB4071D92 /* PBXContainerItemProxy */;
+		};
+		D8460D5D0C6C6ABFA1A7EA3CE1125625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = C7CF2BDDC55BED4B83281091089EEE43 /* SVProgressHUD */;
+			targetProxy = 57E0D75511FF996BECF0A6DE1C090971 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15FF4ECF494A68032D573A3749FC63B3 /* Release */ = {
+		0883DB74DE88B39800EA0F6C4F8A3E54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCC78B4F387D5F0A868A2EDF68054EBE /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = F8B8FC2BC1E140180A42CFECB7392C4E /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -512,11 +737,10 @@
 			};
 			name = Release;
 		};
-		36190FB9F389F9ED9AFD28F5FFC373ED /* Release */ = {
+		36467AB259B85AD9C02D3707BBECFAF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12A5FD36F0B738F73F4A4F970A3B7BAC /* Pods-GusService.release.xcconfig */;
+			baseConfigurationReference = 29BF390C540900041F9B3325409D1BDC /* ChameleonFramework.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -526,23 +750,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GusService/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GusService/Pods-GusService.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				PRODUCT_MODULE_NAME = ChameleonFramework;
+				PRODUCT_NAME = ChameleonFramework;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -614,7 +837,7 @@
 		};
 		7E4E7A6D488A09F05E339904E429D29F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BF92C871B26CA96E9EB418CDBADB7C9 /* DropDown.xcconfig */;
+			baseConfigurationReference = 5D06D9A61AEE20A5102361524E884C8F /* DropDown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -714,7 +937,7 @@
 			};
 			name = Debug;
 		};
-		9709AFD2D28A44FDECE3EA5CE08FEFF9 /* Debug */ = {
+		97A2C43A41851F9F160360C3F52EB4B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C45D94D1BFF9A9CED29D1032D71C91B4 /* Pods-GusService.debug.xcconfig */;
 			buildSettings = {
@@ -751,9 +974,9 @@
 			};
 			name = Debug;
 		};
-		C79A8BBF512489D2201B6FE994B06D7B /* Debug */ = {
+		B8B401A2C8F2348D20EA720CE29DE8C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCC78B4F387D5F0A868A2EDF68054EBE /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = F8B8FC2BC1E140180A42CFECB7392C4E /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -788,7 +1011,7 @@
 		};
 		D7DE85806B8F76E59E0B279B314E17A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BF92C871B26CA96E9EB418CDBADB7C9 /* DropDown.xcconfig */;
+			baseConfigurationReference = 5D06D9A61AEE20A5102361524E884C8F /* DropDown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -821,6 +1044,79 @@
 			};
 			name = Debug;
 		};
+		F04B12BDEB308538525D92C92E61E466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A5FD36F0B738F73F4A4F970A3B7BAC /* Pods-GusService.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GusService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GusService/Pods-GusService.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F50EC3996C051BFA118EE70566CF0AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BF390C540900041F9B3325409D1BDC /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				PRODUCT_MODULE_NAME = ChameleonFramework;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -833,20 +1129,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4222773956BDFF68BF6B3802CE9CB7CB /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		7BCE41A45865B113C2B59A186B6E3E1A /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C79A8BBF512489D2201B6FE994B06D7B /* Debug */,
-				15FF4ECF494A68032D573A3749FC63B3 /* Release */,
+				B8B401A2C8F2348D20EA720CE29DE8C0 /* Debug */,
+				0883DB74DE88B39800EA0F6C4F8A3E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A53035812E916E8EEF0D87B0260219FB /* Build configuration list for PBXNativeTarget "Pods-GusService" */ = {
+		B4616CC585387D9A6335E1A1A4776AEA /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9709AFD2D28A44FDECE3EA5CE08FEFF9 /* Debug */,
-				36190FB9F389F9ED9AFD28F5FFC373ED /* Release */,
+				F50EC3996C051BFA118EE70566CF0AB6 /* Debug */,
+				36467AB259B85AD9C02D3707BBECFAF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -856,6 +1152,15 @@
 			buildConfigurations = (
 				D7DE85806B8F76E59E0B279B314E17A7 /* Debug */,
 				7E4E7A6D488A09F05E339904E429D29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0D0C59652C061189411292137D5C1E /* Build configuration list for PBXNativeTarget "Pods-GusService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A2C43A41851F9F160360C3F52EB4B3 /* Debug */,
+				F04B12BDEB308538525D92C92E61E466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

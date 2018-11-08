@@ -120,7 +120,7 @@ class TERCHandler : NSObject, XMLParserDelegate {
             if nazwaDod == spr {
                 addMap(woj: self.nazwa, kod: self.woj!)
             }
-            if nazwaDod == "powiat" || nazwaDod == "miasto na prawach powiatu" {
+            if nazwaDod == "powiat" || nazwaDod == "miasto na prawach powiatu" || nazwaDod == "miasto stołeczne, na prawach powiatu" {
                 createPowiatMap(woj: woj!)
             }
         }

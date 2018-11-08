@@ -1,20 +1,26 @@
 PODS:
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
   - DropDown (2.3.12)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
+  - ChameleonFramework
   - DropDown
   - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - ChameleonFramework
     - DropDown
     - SVProgressHUD
 
 SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   DropDown: 0bcc278799ec11a3d34ce1aac9367fbbaf5423d9
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 96ed0681263a76198dcbd48bafcd7e10b6c0f4b8
+PODFILE CHECKSUM: 2a148fe73c2ac2e61daca3d3b14a11392e3e61d5
 
 COCOAPODS: 1.5.3

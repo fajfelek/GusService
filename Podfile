@@ -7,5 +7,6 @@ target 'GusService' do
   # Pods for GusService
     pod 'SVProgressHUD'
     pod 'DropDown'
+    pod 'ChameleonFramework'
 
 end

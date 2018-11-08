@@ -16,11 +16,10 @@ class CustomMessageCell: UITableViewCell {
     @IBOutlet weak var cecha: UILabel!
     @IBOutlet weak var wojewodztwo: UILabel!
     @IBOutlet weak var powiat: UILabel!
-    @IBOutlet weak var gmina: UILabel!
     @IBOutlet weak var rodziajGminy: UILabel!
     @IBOutlet weak var nazwaMsc: UILabel!
-    @IBOutlet weak var identyfikatorMsc: UILabel!
-    @IBOutlet weak var IdentyfikatorUlicy: UILabel!
+    @IBOutlet weak var identyfikatorMiejscowosci: UILabel!
+    
     
     
     override func awakeFromNib() {

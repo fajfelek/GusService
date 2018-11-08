@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "850B3E24F4B0D7CA3A7EB3D69D5C22B8"
+               BlueprintIdentifier = "E648E11946AA7BCD6EE4DDFE42B4B54D"
                BuildableName = "Pods_GusService.framework"
                BlueprintName = "Pods-GusService"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "850B3E24F4B0D7CA3A7EB3D69D5C22B8"
+            BlueprintIdentifier = "E648E11946AA7BCD6EE4DDFE42B4B54D"
             BuildableName = "Pods_GusService.framework"
             BlueprintName = "Pods-GusService"
             ReferencedContainer = "container:Pods.xcodeproj">

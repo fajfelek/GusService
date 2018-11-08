@@ -21,55 +21,62 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yxz-95-vHl">
                         <rect key="frame" x="10" y="10" width="813" height="60.5"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="huU-v2-TKQ">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="huU-v2-TKQ">
                                 <rect key="frame" x="0.0" y="0.0" width="813" height="60.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nazwa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmS-eA-13j">
-                                        <rect key="frame" x="0.0" y="0.0" width="116" height="60.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nazwa" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmS-eA-13j">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="60.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cecha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F91-1S-3lL">
-                                        <rect key="frame" x="116" y="0.0" width="116.5" height="60.5"/>
+                                        <rect key="frame" x="125" y="0.0" width="62.5" height="60.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nazwa msc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Auz-dF-vlp">
-                                        <rect key="frame" x="232.5" y="0.0" width="116" height="60.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nazwa msc" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Auz-dF-vlp">
+                                        <rect key="frame" x="187.5" y="0.0" width="125" height="60.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Województwo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQj-7F-gID">
-                                        <rect key="frame" x="348.5" y="0.0" width="116" height="60.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Województwo" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQj-7F-gID">
+                                        <rect key="frame" x="312.5" y="0.0" width="125.5" height="60.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powiat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N80-FL-u0N">
-                                        <rect key="frame" x="464.5" y="0.0" width="116" height="60.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powiat" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N80-FL-u0N">
+                                        <rect key="frame" x="438" y="0.0" width="125" height="60.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gmina" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaJ-CJ-wMU">
-                                        <rect key="frame" x="580.5" y="0.0" width="116.5" height="60.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Identyfikator miejscowości" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaJ-CJ-wMU">
+                                        <rect key="frame" x="563" y="0.0" width="125" height="60.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rodzaj gminy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgn-3S-mnA">
-                                        <rect key="frame" x="697" y="0.0" width="116" height="60.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rodzaj gminy" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgn-3S-mnA">
+                                        <rect key="frame" x="688" y="0.0" width="125" height="60.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="cQj-7F-gID" firstAttribute="width" secondItem="wmS-eA-13j" secondAttribute="width" id="2Vf-a8-8pc"/>
+                                    <constraint firstItem="F91-1S-3lL" firstAttribute="width" secondItem="wmS-eA-13j" secondAttribute="width" multiplier="1:2" id="9Xg-BE-pbY"/>
+                                    <constraint firstItem="Dgn-3S-mnA" firstAttribute="width" secondItem="wmS-eA-13j" secondAttribute="width" id="Cb8-aV-0nz"/>
+                                    <constraint firstItem="Auz-dF-vlp" firstAttribute="width" secondItem="wmS-eA-13j" secondAttribute="width" id="LHc-QE-TtM"/>
+                                    <constraint firstItem="N80-FL-u0N" firstAttribute="width" secondItem="wmS-eA-13j" secondAttribute="width" id="TEl-sG-LjA"/>
+                                    <constraint firstItem="JaJ-CJ-wMU" firstAttribute="width" secondItem="wmS-eA-13j" secondAttribute="width" id="kAO-nR-Dnw"/>
+                                </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="huU-v2-TKQ" firstAttribute="top" secondItem="Yxz-95-vHl" secondAttribute="top" id="0tf-aY-eAj"/>
                             <constraint firstItem="huU-v2-TKQ" firstAttribute="leading" secondItem="Yxz-95-vHl" secondAttribute="leading" id="FPL-ME-BjU"/>
@@ -90,7 +97,7 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="cecha" destination="F91-1S-3lL" id="wZs-aT-4Vf"/>
-                <outlet property="gmina" destination="JaJ-CJ-wMU" id="rhY-oy-5bK"/>
+                <outlet property="identyfikatorMiejscowosci" destination="JaJ-CJ-wMU" id="KWs-wh-2FE"/>
                 <outlet property="messageBackground" destination="Yxz-95-vHl" id="i3E-B9-bCM"/>
                 <outlet property="nazwa" destination="wmS-eA-13j" id="H3N-E7-kaR"/>
                 <outlet property="nazwaMsc" destination="Auz-dF-vlp" id="iS8-Jg-Lhv"/>
